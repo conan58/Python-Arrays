@@ -1,0 +1,19 @@
+#setup and array and add data
+numbers = [1, 2, 3, 4, 5]
+
+#Declare my varables
+summ = 0
+count = 0
+
+#Have Python go through the array.  Look at count,  as you can see I set it to 0 before.  So this will look at the array starting at 0
+#So 0, 1, 2, 3, 4, Then it will add one to count as long as there is still uncounted data in the array.  Then it will add the data in the array.  
+#
+for number in numbers:
+    sum += number
+    count += 1
+
+#Now I have added another varable average.  This will get the average from the data in the array
+average = summ / count
+
+#show all of the data. 
+print("the avg of the elements in the array is", average)
