@@ -1,0 +1,19 @@
+#create an empty list
+my_list = []
+
+#Use a while loop to accept input from the user
+while True:
+  #prompt the user for input
+  user_input = input("Enter a value,  or type 'done' to finish: ")
+  
+  #if the user types 'done', exit the loop
+  if user_input == 'done':
+    break
+    
+  #Otherwise, add the user's input to the list
+  my_list.append(user_input)
+  
+  #print the final list
+  print(my_list)
+  
+  
