@@ -1,0 +1,15 @@
+A program that finds the maximum value in an array
+
+numbers = [1, 2, 3, 4, 5]
+
+#Initialize a variable to store the max value
+max_value = numbers[0]
+
+#Iterate over the array and update the max value if larger number is found
+
+for number in numbers:
+  if number > max_value:
+    max_value = number
+
+# Print the result
+print("The max value in the array is", max_value)
