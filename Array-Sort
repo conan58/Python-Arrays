@@ -1,0 +1,9 @@
+A program that sorts a list of numbers: 
+
+#Define a list of numbers
+numbers = [4, 2, 5, 3, 1]
+
+#sort the list
+numbers.sort()
+
+print("The sorted list is", numbers
